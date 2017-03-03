@@ -11,12 +11,12 @@ Ruby client for PepoCampaigns REST API. For details about the API, documentation
 
 ## Usage
 
-### Initiation 
+### Initialization
 	
 ```ruby
 require "pepo_campaigns"
 
-# api_key and api_secret to be passed while initiation
+# api_key and api_secret to be passed while initialization
 pepo_campaigns = PepoCampaigns.new('3gd68b470d1205bd57fd4dbfa1208ab1', 'e74c748409db3fae8add716fbeb315a2')
 ```    
 
