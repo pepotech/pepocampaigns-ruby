@@ -1,4 +1,4 @@
-PepoCampaigns Ruby client
+PepoCampaigns Ruby Client
 ========================
 
 Ruby client for PepoCampaigns REST API. For details about the API, documentation and examples please visit: [https://know.pepocampaigns.com/categories/api/](https://know.pepocampaigns.com/categories/api/)
