@@ -201,7 +201,7 @@ class PepoCampaigns
     request_time = DateTime.now.to_s
     str = endpoint + '::' + request_time
     signature = generate_signature(api_secret, str)
-    {"request-time" => request_time, "signature" => signature, "api-api_key" => api_key}
+    {"request-time" => request_time, "signature" => signature, "api-key" => api_key}
   end
 
   def generate_signature(api_secret, string_to_sign)
